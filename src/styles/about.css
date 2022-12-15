@@ -1,0 +1,21 @@
+.bg {
+    width: 100vw;
+    height: calc(100vh - 160px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#karta {
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+}

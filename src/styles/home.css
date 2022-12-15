@@ -1,0 +1,19 @@
+.bg-transparent {
+    width: 100vw;
+    height: calc(100vh - 160px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+img {
+    border-radius: 90%;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}

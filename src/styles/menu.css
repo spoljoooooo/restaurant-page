@@ -1,0 +1,30 @@
+.menu {
+    width: 100vw;
+    height: calc(100vh - 160px);
+
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 90%;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
